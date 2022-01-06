@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@600;700;800&display=swap');
+
+@layer components {
+	.check-content {
+		@apply mb-[50px] flex items-center gap-8 ml-[70px] mr-[29px] md:mx-0;
+	}
+	.btn-hover {
+		@apply hover:text-purple-500 transition-all duration-200 cursor-pointer;
+	}
+}
