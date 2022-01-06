@@ -18,7 +18,7 @@ function Content() {
 						</div>
 					</div>
 					<div className='mt-16 gap-8 flex items-start'>
-						<FaUser size={'22px'} className='mt-[12px]' />
+						<BsFillCreditCardFill size={'22px'} className='mt-[12px]' />
 						<div className='text-26'>
 							<animated.div>{card.cards.to((val) => Math.floor(val))}</animated.div>
 							<p className='text-13 font-semibold mb-[36px] md:text-16'>Issued</p>
