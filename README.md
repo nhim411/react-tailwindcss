@@ -1,6 +1,7 @@
 # Simple landing page build with react & tailwindCSS
 ### 🛠 Mô tả
 Sử dụng `create-react-app` và `tailwindCSS` để xây dựng giao diện landing page
+
 Demo: [LINK](https://react-tailwindcss-jade.vercel.app/)
 ### Tính năng
 - Responsive
