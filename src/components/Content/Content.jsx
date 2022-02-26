@@ -1,6 +1,6 @@
-import { FaUser } from 'react-icons/fa';
-import { useSpring, animated } from 'react-spring';
 import { BsFillCreditCardFill } from 'react-icons/bs';
+import { FaUser } from 'react-icons/fa';
+import { animated, useSpring } from 'react-spring';
 import checkIconMobile from '../../assets/mobile/checkpoint.svg';
 
 function Content() {

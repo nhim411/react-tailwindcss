@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import useDarkMode from '../hook/useDarkMode';
 import { FaMoon } from 'react-icons/fa';
 import { BsSunFill } from 'react-icons/bs';
@@ -35,6 +35,7 @@ function NavBar(props) {
 					/>
 				)}
 			</div>
+
 			<ul className='md:flex md:gap-10 ml-auto text-16 font-semibold z-10'>
 				{openMenu && isMobile ? (
 					<MdOutlineClose size={'24px'} className='cursor-pointer' onClick={handleMenu} />
